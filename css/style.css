@@ -159,6 +159,8 @@
     
     .active {
         background: linear-gradient(180deg, #DD0053 0%, #A4164A 100%);
+        border: 1px solid #000000;
+        box-sizing: border-box;
         font-weight: bold;
         font-size: 0.750em;
         text-align: center;
@@ -213,8 +215,6 @@
             height: 2.600em;
             position: unset;
             width: 100vw;
-            background-color: #FFC93C;
-            background-image: none;
         }
         .head-menu {
             height: 100%;
@@ -226,25 +226,14 @@
             display: flex;
             align-items: center;
         }
-        .active {
-            background-color: #DD0053;
-            background-image: none;
-        }
         .promo {
             height: 100%;
-            background-color: #DD0053;
+            padding-left: 1.458em;
             color: #FFFFFF;
-            position: relative;
-        }
-        .promo::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            border-top: 1.950rem solid #FFC93C;
-            border-bottom: 1.950rem solid #FFC93C;
-            border-right: 1.950rem solid #DD0053;
-            width: 0;
+            background: #A4164A;
+            background: linear-gradient(135deg, transparent 1.300em, #DF0054 0%, #CE004E 27.83%, #CD004D 29.91%, #A3003D 51.26% 0) top, linear-gradient(45deg, transparent 1.300em, #DF0054 0%, #CE004E 27.83%, #CD004D 29.91%, #A3003D 51.26% 0) bottom;
+            background-size: 100% 50.5%;
+            background-repeat: no-repeat;
         }
     }
     
