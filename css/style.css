@@ -84,6 +84,7 @@
     
     .phone-number:hover {
         color: #999595;
+        transition: 0.3s;
     }
     
     .phone-text-link {
@@ -97,6 +98,7 @@
     
     .phone-text-link:hover {
         color: #999595;
+        transition: 0.3s;
     }
     
     .menu-toggle {
@@ -152,19 +154,23 @@
         padding: 1.5em 0;
     }
     
-    .head-menu-list:hover {
-        background: rgba(221, 0, 83, 0.1);
+    .head-menu-link:hover {
         transition: 0.3s;
+        color: rgb(0, 0, 0, 0.3);
     }
     
     .active {
         background: linear-gradient(180deg, #DD0053 0%, #A4164A 100%);
-        border: 1px solid #000000;
         box-sizing: border-box;
         font-weight: bold;
         font-size: 0.750em;
         text-align: center;
         color: #FFFFFF;
+    }
+    
+    .active:hover {
+        color: black;
+        transition: 0.3s;
     }
     
     .head-nav-close {
@@ -232,8 +238,12 @@
             color: #FFFFFF;
             background: #A4164A;
             background: linear-gradient(135deg, transparent 1.300em, #DF0054 0%, #CE004E 27.83%, #CD004D 29.91%, #A3003D 51.26% 0) top, linear-gradient(45deg, transparent 1.300em, #DF0054 0%, #CE004E 27.83%, #CD004D 29.91%, #A3003D 51.26% 0) bottom;
-            background-size: 100% 50.5%;
+            background-size: 100% 50.1%;
             background-repeat: no-repeat;
+        }
+        .promo:hover {
+            color: black;
+            transition: 0.3s;
         }
     }
     
