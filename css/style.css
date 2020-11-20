@@ -457,10 +457,19 @@
             height: 100%;
             padding-left: 1.458em;
             color: #FFFFFF;
-            background: #A4164A;
-            background: linear-gradient(135deg, transparent 1.300em, #DF0054 0%, #CE004E 27.83%, #CD004D 29.91%, #A3003D 51.26% 0) top, linear-gradient(45deg, transparent 1.300em, #DF0054 0%, #CE004E 27.83%, #CD004D 29.91%, #A3003D 51.26% 0) bottom;
-            background-size: 100% 50.1%;
-            background-repeat: no-repeat;
+            position: relative;
+            background: linear-gradient(180deg, #DF0054 0%, #A3003D 100%);
+            margin-left: 1.667em;
+        }
+        .promo::before {
+            width: 1.733em;
+            height: 1.733em;
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            background: linear-gradient(135deg, #DF0054 0%, #A3003D 100%);
+            transform: translate(-51.9%, 50.2%) scaleY(1.40) scaleX(1.5) rotate(45deg);
         }
         .promo:hover {
             color: black;
