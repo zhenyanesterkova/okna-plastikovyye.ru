@@ -225,8 +225,125 @@
         border-radius: 0.313em;
     }
     
+    .letter-input-user-tel {
+        background-image: url(../img/letter-tel-img.svg);
+        background-repeat: no-repeat;
+        background-position-y: center;
+        background-position-x: 0.688em;
+        padding: 0.875em 0 0.875em 3.438em;
+    }
+    
+    .letter-input-user-name {
+        background-image: url(../img/letter-user-name-img.svg);
+        background-repeat: no-repeat;
+        padding: 0.813em 0 0.938em 3.500em;
+        background-position-y: center;
+        background-position-x: 0.750em;
+    }
+    
     .letter-input-user-message {
         height: 45%;
+        padding-top: 0.688em;
+        padding-left: 0.688em;
+        font-size: 1.200em;
+    }
+    
+    .letter-input-user-tel::-moz-placeholder {
+        color: #D0D0D0;
+        font-weight: 500;
+        font-size: 1.125em;
+        line-height: 1.375em;
+    }
+    
+    .letter-input-user-name::-moz-placeholder {
+        color: #D0D0D0;
+        font-weight: 500;
+        font-size: 1.125em;
+        line-height: 1.375em;
+    }
+    
+    .letter-input-user-tel::-webkit-input-placeholder {
+        color: #D0D0D0;
+        font-weight: 500;
+        font-size: 1.125em;
+        line-height: 1.375em;
+    }
+    
+    .letter-input-user-tel:-ms-input-placeholder {
+        color: #D0D0D0;
+        font-weight: 500;
+        font-size: 1.125em;
+        line-height: 1.375em;
+    }
+    
+    .letter-input-user-tel::-ms-input-placeholder {
+        color: #D0D0D0;
+        font-weight: 500;
+        font-size: 1.125em;
+        line-height: 1.375em;
+    }
+    
+    .letter-input-user-tel::placeholder {
+        color: #D0D0D0;
+        font-weight: 500;
+        font-size: 1.125em;
+        line-height: 1.375em;
+    }
+    
+    .letter-input-user-name:-ms-input-placeholder {
+        color: #D0D0D0;
+        font-weight: 500;
+        font-size: 1.125em;
+        line-height: 1.375em;
+    }
+    
+    .letter-input-user-name::-ms-input-placeholder {
+        color: #D0D0D0;
+        font-weight: 500;
+        font-size: 1.125em;
+        line-height: 1.375em;
+    }
+    
+    .letter-input-user-name::placeholder {
+        color: #D0D0D0;
+        font-weight: 500;
+        font-size: 1.125em;
+        line-height: 1.375em;
+    }
+    
+    .letter-input-user-message::-moz-placeholder {
+        color: #D0D0D0;
+        font-weight: 500;
+        font-size: 1.125em;
+        line-height: 1.375em;
+    }
+    
+    .letter-input-user-message::-webkit-input-placeholder {
+        color: #D0D0D0;
+        font-weight: 500;
+        font-size: 1.125em;
+        line-height: 1.375em;
+    }
+    
+    .letter-input-user-message:-ms-input-placeholder {
+        color: #D0D0D0;
+        font-weight: 500;
+        font-size: 1.125em;
+        line-height: 1.375em;
+    }
+    
+    .letter-input-user-message::-ms-input-placeholder {
+        color: #D0D0D0;
+        font-weight: 500;
+        font-size: 1.125em;
+        line-height: 1.375em;
+    }
+    
+    .letter-input-user-message::placeholder {
+        color: #D0D0D0;
+        font-weight: 500;
+        font-size: 1.125em;
+        line-height: 1.375em;
     }
     
     .letter-input-submit {
@@ -236,11 +353,16 @@
         border-radius: 1.563em;
         width: 6.250em;
         height: 1.563em;
+        font-weight: bold;
+        font-size: 1.125em;
+        line-height: 1.500em;
+        text-align: center;
+        color: #FFFFFF;
     }
     
     @media (min-width: 768px) {
         .header {
-            height: 40vh;
+            height: 12.500em;
         }
         .header-content {
             flex-direction: row;
@@ -251,6 +373,49 @@
         }
         .phone {
             align-items: flex-end;
+        }
+        .section-letter {
+            height: 35.313em;
+            text-align: unset;
+        }
+        .section-letter-head {
+            margin: 1.250em 0.969em;
+            font-size: 2.000em;
+            line-height: 1.219em;
+        }
+        .letter {
+            display: block;
+            width: 47.125em;
+            height: 25.875em;
+            padding: 2em 5.500em 8.000em;
+            background: url("../img/letter-bg-img.svg") no-repeat, linear-gradient(#FEF6DF, #FEF6DF) padding-box, repeating-linear-gradient(-45deg, #CF5755 0, #CF5755 12.5%, #FEF6DF 0, #FEF6DF 25%, #5A799F 0, #5A799F 37.5%, #FEF6DF 0, #FEF6DF 50%) 0 / 5em 5em;
+            background-position: left 20px bottom 24px;
+        }
+        .letter-input {
+            margin-bottom: 0.625em;
+            font-size: 1em;
+        }
+        .letter-input-user-tel {
+            width: 16.500em;
+            height: 3.125em;
+            margin-right: 1.688em;
+        }
+        .letter-input-user-name {
+            width: 16.500em;
+            height: 3.125em;
+        }
+        .letter-input-user-message {
+            width: 30.604em;
+            height: 6.648em;
+            font-size: 1.4em;
+        }
+        .letter-input-submit {
+            width: 9.143em;
+            height: 2.344em;
+            font-size: 1.333em;
+            line-height: 1.360em;
+            text-transform: uppercase;
+            margin-left: 16.973em;
         }
     }
     
