@@ -389,7 +389,7 @@
             height: 25.875em;
             padding: 2em 5.500em 8.000em;
             background: url("../img/letter-bg-img.svg") no-repeat, linear-gradient(#FEF6DF, #FEF6DF) padding-box, repeating-linear-gradient(-45deg, #CF5755 0, #CF5755 12.5%, #FEF6DF 0, #FEF6DF 25%, #5A799F 0, #5A799F 37.5%, #FEF6DF 0, #FEF6DF 50%) 0 / 5em 5em;
-            background-position: left 20px bottom 24px;
+            background-position: left 1.250em bottom 1.500em;
         }
         .letter-input {
             margin-bottom: 0.625em;
