@@ -358,6 +358,7 @@
         line-height: 1.500em;
         text-align: center;
         color: #FFFFFF;
+        cursor: pointer;
     }
     
     @media (min-width: 768px) {
