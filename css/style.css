@@ -378,7 +378,7 @@
         .section-letter {
             height: auto;
             text-align: unset;
-            padding-bottom: 40px;
+            padding-bottom: 2.500em;
         }
         .section-letter-head {
             margin: 1.250em 0.969em;
