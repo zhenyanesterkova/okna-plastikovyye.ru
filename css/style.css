@@ -376,8 +376,9 @@
             align-items: flex-end;
         }
         .section-letter {
-            height: 35.313em;
+            height: auto;
             text-align: unset;
+            padding-bottom: 40px;
         }
         .section-letter-head {
             margin: 1.250em 0.969em;
